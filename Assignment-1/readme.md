@@ -34,10 +34,10 @@ This approach is based on maximum likelihood estimation principles.
 The learned parameters are summarized in the table below:
 
 | Parameter | Value |
-|--------|--------|
-| μ | ~33.85 |
-| λ | ~0.00041 |
-| c | ~0.0114 |
+|-----------|-------|
+| μ         | 21.4500 |
+| λ         | 0.002205 |
+| c         | 0.026495 |
 
 ## Visualization
 A histogram of the transformed variable z was plotted along with the estimated probability density function. The close alignment between the histogram and the PDF indicates a good fit.
