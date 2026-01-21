@@ -42,5 +42,7 @@ The learned parameters are summarized in the table below:
 ## Visualization
 A histogram of the transformed variable z was plotted along with the estimated probability density function. The close alignment between the histogram and the PDF indicates a good fit.
 
+![PDF Estimation Plot](graph.png)
+
 ## Conclusion
 The experiment demonstrates how a simple transformation affects the underlying distribution and how probability density parameters can be learned analytically from data.
