@@ -49,7 +49,7 @@ def send_email(receiver, file_path):
         )
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-        server.login("your_email@gmail.com", "your_app_password")
+        server.login("vgarg4_be23@thapar.edu", "wyww hyfn upyu gyfd")
         server.send_message(msg)
 
 if __name__ == "__main__":

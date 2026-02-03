@@ -1,22 +1,21 @@
-# Virtual environment
+
 venv/
 
-# Build artifacts
 build/
 dist/
 *.whl
 *.tar.gz
 *.egg-info/
 
-# Python cache
+
 __pycache__/
 *.pyc
 
-# Data files
+
 *.csv
 *.xlsx
 ~$*.xlsx
 
-# OS / editor files
+
 .vscode/
 .DS_Store
