@@ -2,6 +2,10 @@
 
 This assignment implements the TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) method using both a command line tool and a web service.
 
+
+## Part 1 – Understanding TOPSIS
+In Part 1, the mathematical concept of TOPSIS was studied. TOPSIS ranks alternatives based on their distance from an ideal best and an ideal worst solution, considering multiple criteria along with weights and impacts.
+
 ## Part 2 – Command Line Tool
 The command line implementation accepts a CSV file, weights, and impacts, applies the TOPSIS method, and generates an output CSV containing Topsis Score and Rank.
 
