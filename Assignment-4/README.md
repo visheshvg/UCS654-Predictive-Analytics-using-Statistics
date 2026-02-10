@@ -102,14 +102,17 @@ A radar chart was used to visualize the criteria values for the top-ranked model
 ---
 
 ## Conclusion
-Based on the TOPSIS analysis, **BART-Large** achieved the highest closeness coefficient and is ranked as the most suitable pre-trained model for text generation among the selected alternatives.
 
-The results indicate that although BART-Large has relatively higher computational requirements, its superior text quality and balanced efficiency make it the most appropriate choice for text generation tasks.
+Based on the TOPSIS analysis, **GPT-2** achieved the highest closeness coefficient and is therefore ranked as the most suitable pre-trained model for text generation among the selected alternatives.
+
+Although models such as BART-Large and T5-Base demonstrate strong text quality, GPT-2 provides a better overall balance between text quality, inference time, model size, and computational efficiency. This balance allows GPT-2 to remain closer to the ideal solution when all criteria are jointly considered.
+
+The results highlight that selecting a model using multi-criteria decision-making methods like TOPSIS can lead to different and more practical conclusions than relying solely on a single performance metric.
 
 ---
 
 ## How to Run
-1. Clone the repository  
+1. Clone the repository
 2. Install required dependencies: pip install -r requirements.txt
 3. Open and run the notebook:
 
