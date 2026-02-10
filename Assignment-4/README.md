@@ -93,11 +93,6 @@ The following bar chart illustrates the relative closeness coefficients of the m
 
 ![TOPSIS Closeness Coefficient](plots/topsis_closeness_bar.png)
 
-**Radar Chart Analysis**
-
-A radar chart was used to visualize the criteria values for the top-ranked model:
-
-![Radar Chart](plots/radar_chart.png)
 
 ---
 
