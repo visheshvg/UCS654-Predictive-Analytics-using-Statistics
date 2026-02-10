@@ -1,3 +1,60 @@
+# Assignment: Data Generation using Modelling and Simulation for Machine Learning
+
+## Objective
+The objective of this assignment is to demonstrate how **modelling and simulation** can be used to generate synthetic data for machine learning applications.  
+A simulation model is used to generate data by varying input parameters within defined bounds, and the generated data is then used to train and compare multiple machine learning models.
+
+The final goal is to identify the **best-performing ML model** based on standard evaluation metrics.
+
+---
+
+## Simulation Tool Used
+For this assignment, the **synthetic data generation utilities provided by scikit-learn** were used.
+
+The function `make_regression()` was selected as the simulator because:
+- It models a controlled regression system
+- It allows noise injection to simulate real-world uncertainty
+- It is widely used and well-documented
+- It works seamlessly in Google Colab
+
+This simulator treats input features as system parameters and the target variable as the system output.
+
+---
+
+## Simulation Parameters and Bounds
+The following parameters were identified as relevant for the simulation:
+
+| Parameter | Description | Lower Bound | Upper Bound |
+|---------|------------|------------|------------|
+| n_features | Number of system input variables | 5 | 20 |
+| noise | Measurement noise | 0 | 30 |
+| bias | System bias | -10 | 10 |
+
+For each simulation run, these parameters are randomly sampled within the given bounds.
+
+---
+
+## Simulation Methodology
+The simulation process was carried out as follows:
+
+1. Random values for simulation parameters were generated within predefined bounds  
+2. The sampled parameters were passed to the simulator  
+3. A synthetic regression dataset was generated  
+4. Summary statistics of the generated data were recorded  
+5. This process was repeated **1000 times**  
+
+Each simulation produced one row in the final dataset, resulting in a dataset suitable for machine learning experiments.
+
+---
+
+## Generated Dataset
+The final dataset consists of 1000 simulation runs.  
+Each row represents one simulation and includes:
+
+- Simulation parameters (number of features, noise, bias)
+- Statistical summaries of inputs and outputs
+
+The dataset is stored as: simulated_dataset.csv
 
 ---
 
