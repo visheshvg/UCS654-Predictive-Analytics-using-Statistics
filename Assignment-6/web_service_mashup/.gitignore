@@ -1,0 +1,9 @@
+venv/
+*.mp3
+*.mp4
+*.zip
+temp_*/
+__pycache__/
+.streamlit/secrets.toml
+*.pyc
+.DS_Store
