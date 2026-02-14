@@ -61,6 +61,10 @@ You also need FFmpeg installed on your system.
 
 A Streamlit-based web interface for the same functionality.
 
+### Live Demo
+
+🔗 [Mashup Generator Web App](https://mashup-webapp-g9k5.onrender.com/)
+
 ### Features
 
 - Simple form interface
