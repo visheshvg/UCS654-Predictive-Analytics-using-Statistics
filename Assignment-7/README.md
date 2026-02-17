@@ -82,7 +82,7 @@ A 70-30 train-test split was applied to each sample. Model performance was evalu
 
 A heatmap was generated to visually compare model accuracies across the five sampling techniques.
 
-![Sampling Heatmap](sampling_heatmap.png)
+![Sampling Heatmap](plots/sampling_heatmap.png)
 
 The heatmap provides a clear representation of performance consistency and highlights the variation across sampling strategies.
 
